@@ -1,0 +1,300 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "8ae523d0-1e44-401a-8c0a-127d68e06c6a")
+	(paper "A4")
+	(lib_symbols)
+	(text "https://www.electronics-tutorials.ws/amplifier/amp_2.html"
+		(exclude_from_sim no)
+		(at 207.518 169.926 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ac788312-edc4-4156-9d5c-4372614af4a6")
+	)
+	(sheet
+		(at 50.546 50.546)
+		(size 26.67 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "1d608d62-6b62-4129-9bf9-6774aa7c774c")
+		(property "Sheetname" "common-emitter"
+			(at 50.546 49.8344 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "common-emitter.kicad_sch"
+			(at 50.546 76.5306 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "bjt-amp"
+				(path "/8ae523d0-1e44-401a-8c0a-127d68e06c6a"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 85.598 51.054)
+		(size 25.908 24.892)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "6d3b9abe-767b-41a1-99a3-4a056b300ddb")
+		(property "Sheetname" "common-collector"
+			(at 85.598 50.3424 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "common-collector.kicad_sch"
+			(at 85.598 76.5306 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "bjt-amp"
+				(path "/8ae523d0-1e44-401a-8c0a-127d68e06c6a"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 53.34 101.6)
+		(size 26.416 25.146)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "7152f4f6-88b5-4211-b57e-81b0050ca790")
+		(property "Sheetname" "class-a"
+			(at 53.34 100.8884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "class-a.kicad_sch"
+			(at 53.34 127.3306 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "bjt-amp"
+				(path "/8ae523d0-1e44-401a-8c0a-127d68e06c6a"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 88.646 102.87)
+		(size 25.908 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "7ce89b63-5e85-48ca-ac4b-165882ccdc3b")
+		(property "Sheetname" "class-b"
+			(at 88.646 102.1584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "class-b.kicad_sch"
+			(at 88.646 127.5846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "bjt-amp"
+				(path "/8ae523d0-1e44-401a-8c0a-127d68e06c6a"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 122.682 51.562)
+		(size 25.908 26.162)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "e68974b8-a3f8-48d0-9694-84bd26739838")
+		(property "Sheetname" "common-base"
+			(at 122.682 50.8504 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "common-base.kicad_sch"
+			(at 122.682 78.3086 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "bjt-amp"
+				(path "/8ae523d0-1e44-401a-8c0a-127d68e06c6a"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 125.984 102.87)
+		(size 25.146 26.162)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "f40aca12-cca9-4558-8222-ad74b9a649e7")
+		(property "Sheetname" "class-ab"
+			(at 125.984 102.1584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "class-ab.kicad_sch"
+			(at 125.984 129.6166 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "bjt-amp"
+				(path "/8ae523d0-1e44-401a-8c0a-127d68e06c6a"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
