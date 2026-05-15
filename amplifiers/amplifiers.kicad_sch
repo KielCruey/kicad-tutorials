@@ -5,6 +5,39 @@
 	(uuid "8ae523d0-1e44-401a-8c0a-127d68e06c6a")
 	(paper "A4")
 	(lib_symbols)
+	(rectangle
+		(start 46.736 44.196)
+		(end 153.67 83.312)
+		(stroke
+			(width 0)
+			(type dash_dot_dot)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "979be654-dc7c-4395-9911-6ad159755d98")
+	)
+	(text "Other Ideas:\nMason Flow graphs"
+		(exclude_from_sim no)
+		(at 198.12 44.196 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left)
+		)
+		(uuid "547aeb11-0ea4-4d73-8c47-547637a2b2de")
+	)
+	(text "BJTs -- current controlled devices"
+		(exclude_from_sim no)
+		(at 81.534 41.656 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "8e28b029-2ffd-4304-b388-dfabef2697b2")
+	)
 	(text "https://www.electronics-tutorials.ws/amplifier/amp_2.html"
 		(exclude_from_sim no)
 		(at 207.518 169.926 0)

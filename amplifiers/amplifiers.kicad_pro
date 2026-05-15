@@ -410,7 +410,7 @@
         "version": 0
       },
       "model_mode": 4,
-      "workbook_filename": "bjt-amp.wbk"
+      "workbook_filename": "amplifiers.wbk"
     },
     "page_layout_descr_file": "",
     "plot_directory": "",
@@ -424,7 +424,7 @@
         "uuid": "8ae523d0-1e44-401a-8c0a-127d68e06c6a"
       }
     ],
-    "used_designators": "#PWR15-21,C7-9,Q3,R11-15,V3",
+    "used_designators": "R13,R16",
     "variants": []
   },
   "sheets": [

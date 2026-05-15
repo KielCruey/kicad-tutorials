@@ -22,15 +22,18 @@
       "showGrid": true,
       "traces": [
         {
-          "color": "rgb(102, 194, 165)",
-          "signal": "I(Q1:c) / I(Q1:b) (gain)",
-          "trace_type": 522
+          "color": "rgb(255, 127, 0)",
+          "signal": "V(/common-collector/Vout) (phase)",
+          "trace_type": 517
+        },
+        {
+          "color": "rgb(255, 127, 0)",
+          "signal": "V(/common-collector/Vout) (gain)",
+          "trace_type": 521
         }
       ]
     }
   ],
-  "user_defined_signals": [
-    "I(Q1:c) / I(Q1:b)"
-  ],
+  "user_defined_signals": [],
   "version": 7
 }
