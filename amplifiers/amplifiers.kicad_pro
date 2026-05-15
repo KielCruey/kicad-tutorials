@@ -256,7 +256,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "bjt-amp.kicad_pro",
+    "filename": "amplifiers.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -419,18 +419,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "bjt-amp.kicad_sch",
-        "name": "Root",
+        "filename": "amplifiers.kicad_sch",
+        "name": "amplifiers",
         "uuid": "8ae523d0-1e44-401a-8c0a-127d68e06c6a"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#PWR15-21,C7-9,Q3,R11-15,V3",
     "variants": []
   },
   "sheets": [
     [
       "8ae523d0-1e44-401a-8c0a-127d68e06c6a",
-      "Root"
+      "amplifiers"
     ],
     [
       "1d608d62-6b62-4129-9bf9-6774aa7c774c",

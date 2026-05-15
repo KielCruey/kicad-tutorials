@@ -54,7 +54,7 @@
 			)
 		)
 		(instances
-			(project "bjt-amp"
+			(project "amplifiers"
 				(path "/8ae523d0-1e44-401a-8c0a-127d68e06c6a"
 					(page "2")
 				)
@@ -100,7 +100,7 @@
 			)
 		)
 		(instances
-			(project "bjt-amp"
+			(project "amplifiers"
 				(path "/8ae523d0-1e44-401a-8c0a-127d68e06c6a"
 					(page "3")
 				)
@@ -146,7 +146,7 @@
 			)
 		)
 		(instances
-			(project "bjt-amp"
+			(project "amplifiers"
 				(path "/8ae523d0-1e44-401a-8c0a-127d68e06c6a"
 					(page "5")
 				)
@@ -192,7 +192,7 @@
 			)
 		)
 		(instances
-			(project "bjt-amp"
+			(project "amplifiers"
 				(path "/8ae523d0-1e44-401a-8c0a-127d68e06c6a"
 					(page "6")
 				)
@@ -238,7 +238,7 @@
 			)
 		)
 		(instances
-			(project "bjt-amp"
+			(project "amplifiers"
 				(path "/8ae523d0-1e44-401a-8c0a-127d68e06c6a"
 					(page "4")
 				)
@@ -284,7 +284,7 @@
 			)
 		)
 		(instances
-			(project "bjt-amp"
+			(project "amplifiers"
 				(path "/8ae523d0-1e44-401a-8c0a-127d68e06c6a"
 					(page "7")
 				)

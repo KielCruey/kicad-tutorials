@@ -1036,7 +1036,7 @@
 		)
 		(uuid "7421893b-3047-409b-a033-8c21109f7cf4")
 	)
-	(text "common emitter amplifier (inverting amp)\n* input signal source and output load share the same emitter lead of the transistor\n* biasing allows the transitor to prepare to receive a signal and to reduce distortion\n* quiescent operating point or q-point allows us to see all the possible operating points of the transistor from fully \"ON\" to fully \"OFF\"\n* beta value (hFE) is current gain"
+	(text "common emitter amplifier (inverting amp)\n* output is inverted in phase\n* input signal source and output load share the same emitter lead of the transistor\n* biasing allows the transitor to prepare to receive a signal and to reduce distortion\n* quiescent operating point or q-point allows us to see all the possible operating points of the transistor from fully \"ON\" to fully \"OFF\"\n* beta value (hFE) is current gain"
 		(exclude_from_sim no)
 		(at 95.758 127.508 0)
 		(effects
@@ -1407,7 +1407,7 @@
 			(uuid "ade8c02f-81dc-43e8-8740-e66ef4ab573f")
 		)
 		(instances
-			(project "bjt-amp"
+			(project "amplifiers"
 				(path "/8ae523d0-1e44-401a-8c0a-127d68e06c6a/1d608d62-6b62-4129-9bf9-6774aa7c774c"
 					(reference "C4")
 					(unit 1)
@@ -1485,7 +1485,7 @@
 			(uuid "c6160762-9ac7-4c99-98a4-61a65aa1e5ad")
 		)
 		(instances
-			(project "bjt-amp"
+			(project "amplifiers"
 				(path "/8ae523d0-1e44-401a-8c0a-127d68e06c6a/1d608d62-6b62-4129-9bf9-6774aa7c774c"
 					(reference "#PWR013")
 					(unit 1)
@@ -1603,7 +1603,7 @@
 			(uuid "511d38bc-4d37-488f-916f-037280ce1608")
 		)
 		(instances
-			(project "bjt-amp"
+			(project "amplifiers"
 				(path "/8ae523d0-1e44-401a-8c0a-127d68e06c6a/1d608d62-6b62-4129-9bf9-6774aa7c774c"
 					(reference "Q2")
 					(unit 1)
@@ -1685,7 +1685,7 @@
 			(uuid "fb1611a2-76e4-4af4-bb57-9ee13361d3e2")
 		)
 		(instances
-			(project "bjt-amp"
+			(project "amplifiers"
 				(path "/8ae523d0-1e44-401a-8c0a-127d68e06c6a/1d608d62-6b62-4129-9bf9-6774aa7c774c"
 					(reference "C5")
 					(unit 1)
@@ -1763,7 +1763,7 @@
 			(uuid "e6d061c3-0390-4310-befa-8592f3c6ac81")
 		)
 		(instances
-			(project "bjt-amp"
+			(project "amplifiers"
 				(path "/8ae523d0-1e44-401a-8c0a-127d68e06c6a/1d608d62-6b62-4129-9bf9-6774aa7c774c"
 					(reference "#PWR010")
 					(unit 1)
@@ -1856,7 +1856,7 @@
 			(uuid "17e3be0b-98a9-42bb-bdf2-a601554361d7")
 		)
 		(instances
-			(project "bjt-amp"
+			(project "amplifiers"
 				(path "/8ae523d0-1e44-401a-8c0a-127d68e06c6a/1d608d62-6b62-4129-9bf9-6774aa7c774c"
 					(reference "R10")
 					(unit 1)
@@ -1938,7 +1938,7 @@
 			(uuid "6d741179-5768-4606-b46b-5c1b3e20e9b9")
 		)
 		(instances
-			(project "bjt-amp"
+			(project "amplifiers"
 				(path "/8ae523d0-1e44-401a-8c0a-127d68e06c6a/1d608d62-6b62-4129-9bf9-6774aa7c774c"
 					(reference "R8")
 					(unit 1)
@@ -2020,7 +2020,7 @@
 			(uuid "d5070471-7742-4e34-969b-63cc94bea78e")
 		)
 		(instances
-			(project "bjt-amp"
+			(project "amplifiers"
 				(path "/8ae523d0-1e44-401a-8c0a-127d68e06c6a/1d608d62-6b62-4129-9bf9-6774aa7c774c"
 					(reference "R9")
 					(unit 1)
@@ -2148,7 +2148,7 @@
 			(uuid "2d570f39-8c36-4aa5-902d-2e35bb71e4c0")
 		)
 		(instances
-			(project "bjt-amp"
+			(project "amplifiers"
 				(path "/8ae523d0-1e44-401a-8c0a-127d68e06c6a/1d608d62-6b62-4129-9bf9-6774aa7c774c"
 					(reference "V2")
 					(unit 1)
@@ -2228,7 +2228,7 @@
 			(uuid "67a9a2df-6b75-4dc2-8e28-76f7c3282fba")
 		)
 		(instances
-			(project "bjt-amp"
+			(project "amplifiers"
 				(path "/8ae523d0-1e44-401a-8c0a-127d68e06c6a/1d608d62-6b62-4129-9bf9-6774aa7c774c"
 					(reference "C6")
 					(unit 1)
@@ -2310,7 +2310,7 @@
 			(uuid "34870748-c699-47de-a407-0e64c7c5b182")
 		)
 		(instances
-			(project "bjt-amp"
+			(project "amplifiers"
 				(path "/8ae523d0-1e44-401a-8c0a-127d68e06c6a/1d608d62-6b62-4129-9bf9-6774aa7c774c"
 					(reference "R7")
 					(unit 1)
@@ -2388,7 +2388,7 @@
 			(uuid "358b742b-4745-4748-8986-530810c300c6")
 		)
 		(instances
-			(project "bjt-amp"
+			(project "amplifiers"
 				(path "/8ae523d0-1e44-401a-8c0a-127d68e06c6a/1d608d62-6b62-4129-9bf9-6774aa7c774c"
 					(reference "#PWR08")
 					(unit 1)
@@ -2466,7 +2466,7 @@
 			(uuid "39c04289-951f-4552-8a4b-a93916c83c56")
 		)
 		(instances
-			(project "bjt-amp"
+			(project "amplifiers"
 				(path "/8ae523d0-1e44-401a-8c0a-127d68e06c6a/1d608d62-6b62-4129-9bf9-6774aa7c774c"
 					(reference "#PWR014")
 					(unit 1)
@@ -2544,7 +2544,7 @@
 			(uuid "2bddfbf7-c8c5-449f-8c36-60fc028f1150")
 		)
 		(instances
-			(project "bjt-amp"
+			(project "amplifiers"
 				(path "/8ae523d0-1e44-401a-8c0a-127d68e06c6a/1d608d62-6b62-4129-9bf9-6774aa7c774c"
 					(reference "#PWR012")
 					(unit 1)
@@ -2622,7 +2622,7 @@
 			(uuid "218127ed-936f-4e95-a410-ac006dbc0201")
 		)
 		(instances
-			(project "bjt-amp"
+			(project "amplifiers"
 				(path "/8ae523d0-1e44-401a-8c0a-127d68e06c6a/1d608d62-6b62-4129-9bf9-6774aa7c774c"
 					(reference "#PWR09")
 					(unit 1)
@@ -2700,7 +2700,7 @@
 			(uuid "5c1cc390-79e1-41be-b860-5317aaa1faf8")
 		)
 		(instances
-			(project "bjt-amp"
+			(project "amplifiers"
 				(path "/8ae523d0-1e44-401a-8c0a-127d68e06c6a/1d608d62-6b62-4129-9bf9-6774aa7c774c"
 					(reference "#PWR011")
 					(unit 1)
@@ -2782,7 +2782,7 @@
 			(uuid "450b55b0-5a97-41d2-93ae-3389ecfd6352")
 		)
 		(instances
-			(project "bjt-amp"
+			(project "amplifiers"
 				(path "/8ae523d0-1e44-401a-8c0a-127d68e06c6a/1d608d62-6b62-4129-9bf9-6774aa7c774c"
 					(reference "R6")
 					(unit 1)
